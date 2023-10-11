@@ -1,0 +1,32 @@
+.sub-button{
+    background-color: rgb(167, 11, 24);
+    border: 1px;
+    height: 35px;
+    width: 9%;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.sub-button{
+    background-color: rgb(10, 42, 224);
+    border: 1px;
+    height: 35px;
+    width: 9%;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.tweet-button{
+    background-color: rgb(10, 42, 224);
+    border: 1px;
+    height: 30px;
+    width: 9%;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-right: 10px;
+
+}
