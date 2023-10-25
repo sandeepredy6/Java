@@ -15,4 +15,3 @@ if(c>max) max=c
 if(c<min) min=c
 console.log("max---->"+max)
 console.log("min---->"+min)
-ati-cziw-row
