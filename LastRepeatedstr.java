@@ -4,7 +4,7 @@ public class LastRepeatedstr {
 
 	public static void main(String[] args) {
 		
-		 String str = "10339093414";
+		 String str = "103390934114366";
 		 // 
 		 // 
 		 // last repeated number 
@@ -15,7 +15,7 @@ public class LastRepeatedstr {
 		 for(int i=0;i<strArr.length;i++) {
 			 eachChar = strArr[i];
 			 isFound = false;
-			for(int j=i+1;j<strArr.length;j++) {
+			for(int j=i;j<strArr.length;j++) {
 				if(eachChar == strArr[j]) {
 					isFound = true;
 					break;
