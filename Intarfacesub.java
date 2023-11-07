@@ -1,5 +1,4 @@
 package FunctionalInterface;
-
 interface Numbers{
 	
 	
@@ -11,18 +10,16 @@ interface Numbers{
 	@Override
 	public int add(int a, int b) {
 		
-		return a+b;
+		return a-b;
 	}
 	 
  }
 
-public class Bank {
-	
-	
-	
+public class Intarfacesub {
+
 	public static void main(String[] args) {
 		AddNo adNo = new AddNo();
-		int res = adNo.add(200,400);
+		int res = adNo.add(1000,400);
 		
 		System.out.println(res);
 		
@@ -36,4 +33,3 @@ public class Bank {
 }
 		
 		
-
